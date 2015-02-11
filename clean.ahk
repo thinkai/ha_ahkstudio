@@ -1,8 +1,15 @@
 clean(clean,tab=""){
 	if tab
 		return RegExReplace(clean,"[^\w ]")
-	clean:=RegExReplace(RegExReplace(clean,"&")," ","_")
 	if InStr(clean,"`t")
 		clean:=SubStr(clean,1,InStr(clean,"`t")-1)
+	Loop,Parse,zh_CN,`n
+	{
+		IfInString, A_LoopField, % clean
+		{
+			clean := RegExReplace(A_LoopField,".*,(.*)","$1")
+		}
+	}
+	clean:=RegExReplace(RegExReplace(clean,"&")," ","_")
 	return clean
 }

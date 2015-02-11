@@ -118,7 +118,7 @@ class xml{
 			<xsl:copy>
 			<xsl:apply-templates select="@*|node()"/>
 			<xsl:for-each select="@*">
-			<xsl:text></xsl:text>		
+			<xsl:text></xsl:text>
 			</xsl:for-each>
 			</xsl:copy>
 			</xsl:template>

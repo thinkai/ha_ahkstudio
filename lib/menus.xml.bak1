@@ -1,99 +1,99 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <menus>
 	<main>
-		<menu name="æ–‡ä»¶(&amp;F)" clean="File">
-			<menu clean="Auto_Update" name="è‡ªåŠ¨æ›´æ–°"></menu>
-			<menu name="æ£€æŸ¥æ›´æ–°(&amp;k)" clean="Check_For_Update" hotkey=""></menu>
-			<menu name="å…³é—­(&amp;C)" clean="Close" hotkey=""></menu>
-			<menu name="ç¼–è¯‘(&amp;m)" clean="Compile" hotkey=""></menu>
-			<menu name="ä»Žé€‰ä¸­æ®µè½åˆ›å»ºæ–°æ ‡ç­¾é¡µ(&amp;e)" hotkey="+^N" clean="Create_Segment_From_Selection"></menu>
-			<menu name="è°ƒè¯•è„šæœ¬" clean="Debug_Current_Script" hotkey="!R"></menu>
-			<menu name="é€€å‡º(&amp;x)" clean="Exit" hotkey=""></menu>
-			<menu name="å¯¼å‡º" clean="Export"></menu>
-			<menu name="å®Œå…¨å¤‡ä»½(&amp;F)" clean="Full_Backup" hotkey=""></menu>
-			<menu name="æ–°å»º(&amp;N)" hotkey="^N" clean="New"></menu>
-			<menu name="æ–°æ ‡ç­¾é¡µæ‰“å¼€(&amp;g)" clean="New_Segment" hotkey=""></menu>
-			<menu name="æ‰“å¼€(&amp;O)" clean="Open" hotkey="^O"></menu>
-			<menu name="æ‰“å¼€æ–‡ä»¶å¤¹(&amp;d)" clean="Open_Folder" hotkey=""></menu>
-			<menu name="åŽ†å²è„šæœ¬(&amp;v)" clean="Previous_Scripts"></menu>
-			<menu name="å‘å¸ƒ(&amp;P)" clean="Publish"></menu>
-			<menu name="ç§»é™¤æ ‡ç­¾é¡µ(&amp;t)" hotkey="" clean="Remove_Segment"></menu>
-			<menu name="è¿è¡Œ(&amp;R)" clean="Run" hotkey=""></menu>
-			<menu name="ç”±Ansiiç‰ˆæœ¬è¿è¡Œ" clean="Run_As_Ansii" hotkey="^!A"></menu>
-			<menu name="ç”±U32ç‰ˆæœ¬è¿è¡Œ" clean="Run_As_U32"></menu>
-			<menu name="ç”±U64ç‰ˆæœ¬è¿è¡Œ" clean="Run_As_U64"></menu>
-			<menu clean="Run_Comment_Block" name="è¿è¡Œæ³¨é‡Šå—"></menu>
-			<menu name="è¿è¡Œé€‰ä¸­ä»£ç (&amp;l)" clean="Run_Selected_Text"></menu>
-			<menu name="ä¿å­˜(&amp;S)" hotkey="^S" clean="Save"></menu>
-			<menu name="è®¾ç½®ä¸ºé»˜è®¤ç¼–è¾‘å™¨(&amp;A)" clean="Set_As_Default_Editor"></menu>
-			<menu name="ä¸Šä¼ (&amp;U)" clean="Upload"></menu></menu>
-		<menu name="ç¼–è¾‘(&amp;E)" clean="Edit">
-			<menu name="è‡ªåŠ¨è¡¥å…¨" clean="Auto_Add" hotkey=""></menu>
-			<menu name="æ¯”è¾ƒ" hotkey="" clean="Compare"></menu>
-			<menu name="å¤åˆ¶" clean="Copy"></menu>
-			<menu clean="Custom_Case_Settings" name="è‡ªå®šä¹‰å¤§å°å†™è®¾ç½®"></menu>
-			<menu name="å‰ªåˆ‡" clean="Cut"></menu>
-			<menu clean="Debug_Settings" name="è°ƒè¯•è®¾ç½®"></menu>
-			<menu clean="Default_Project_Folder" name="é»˜è®¤é¡¹ç›®æ–‡ä»¶å¤¹"></menu>
-			<menu name="å¤åˆ¶è¡Œ(&amp;D)" hotkey="F2" clean="Duplicate_Line"></menu>
-			<menu name="ç¼–è¾‘è‡ªåŠ¨æ›¿æ¢(&amp;i)" clean="Edit_Replacements"></menu>
-			<menu name="æŸ¥æ‰¾(&amp;F)" clean="Find" hotkey="^F"></menu>
-			<menu clean="Find_Replace" name="æ›¿æ¢"></menu>
-			<menu name="è¡¥å…¨ç¼©è¿›(&amp;x)" hotkey="" clean="Fix_Indent"></menu>
-			<menu name="FTPæœåŠ¡å™¨(&amp;p)" clean="Ftp_Servers"></menu>
-			<menu clean="Go_To_Line" name="è¡Œè·³è½¬"></menu>
-			<menu name="åˆ‡æ¢é¡¹ç›®(&amp;e)" clean="Jump_to_Project" hotkey="!S"></menu>
-			<menu name="åˆ‡æ¢æ ‡ç­¾é¡µ(&amp;J)" hotkey="!j" clean="Jump_to_Segment"></menu>
-			<menu name="èœå•ç¼–è¾‘å™¨(&amp;M)" func="flan" clean="Menu_Editor"></menu>
-			<menu clean="New_File_Template" name="æ–°å»ºæ–‡ä»¶æ¨¡æ¿"></menu>
-			<menu name="ä¸‹ä¸€ä¸ª(&amp;N)" hotkey="F3" clean="Next_Found"></menu>
-			<menu name="ç²˜è´´" clean="Paste"></menu>
-			<menu name="è‡ªå®šä¹‰å˜é‡åˆ—è¡¨(&amp;V)" clean="Personal_Variable_List"></menu>
-			<menu name="ä¸Šä¸€ä¸ª" hotkey="+F3" clean="Previous_Found"></menu>
-			<menu clean="Proxy_Settings" name="ä»£ç†è®¾ç½®"></menu>
-			<menu name="å¿«é€ŸæŸ¥æ‰¾(&amp;Q)" hotkey="!q" clean="Quick_Find"></menu>
-			<menu name="é‡åš(&amp;o)" clean="Redo"></menu>
-			<menu name="æ›¿æ¢é€‰ä¸­å†…å®¹(&amp;S)" hotkey="F1" clean="Replace_Selected"></menu>
-			<menu clean="Reset_Zoom" name="å¤ä½ç¼©æ”¾"></menu>
-			<menu name="é‡è½½å½“å‰æ–‡ä»¶(&amp;R)" clean="Restore_Current_File"></menu>
-			<menu name="ä¸»é¢˜(&amp;T)" clean="Theme"></menu>
-			<menu name="åˆ‡æ¢å½“å‰è¡Œæ³¨é‡ŠçŠ¶æ€(&amp;l)" hotkey="^J" clean="Toggle_Comment_Line"></menu>
-			<menu name="æ’¤é”€(&amp;U)" clean="Undo"></menu>
-			<menu name="å®½åº¦" clean="Widths"></menu></menu>
-		<menu name="é€‰é¡¹(&amp;O)" clean="Options">
-			<menu name="é«˜çº§è‡ªåŠ¨å¼•å·" clean="Auto_Advance_Quote"></menu>
-			<menu clean="Auto_Close_Find" name="è‡ªåŠ¨å…³é—­æŸ¥æ‰¾"></menu>
-			<menu name="å¿«é€ŸæŸ¥æ‰¾è‡ªåŠ¨è®¾ç½®åŒºåŸŸ" clean="Auto_Set_Area_On_Quick_Find"></menu>
-			<menu name="è‡ªåŠ¨å›žè½¦æ¢è¡Œ" clean="Autocomplete_Enter_Newline"></menu>
+		<menu name="ÎÄ¼þ(&amp;F)" clean="File">
+			<menu clean="Auto_Update" name="×Ô¶¯¸üÐÂ"></menu>
+			<menu name="¼ì²é¸üÐÂ(&amp;k)" clean="Check_For_Update" hotkey=""></menu>
+			<menu name="¹Ø±Õ(&amp;C)" clean="Close" hotkey=""></menu>
+			<menu name="±àÒë(&amp;m)" clean="Compile" hotkey=""></menu>
+			<menu name="´ÓÑ¡ÖÐ¶ÎÂä´´½¨ÐÂ±êÇ©Ò³(&amp;e)" hotkey="+^N" clean="Create_Segment_From_Selection"></menu>
+			<menu name="µ÷ÊÔ½Å±¾" clean="Debug_Current_Script" hotkey="!R"></menu>
+			<menu name="ÍË³ö(&amp;x)" clean="Exit" hotkey=""></menu>
+			<menu name="µ¼³ö" clean="Export"></menu>
+			<menu name="ÍêÈ«±¸·Ý(&amp;F)" clean="Full_Backup" hotkey=""></menu>
+			<menu name="ÐÂ½¨(&amp;N)" hotkey="^N" clean="New"></menu>
+			<menu name="ÐÂ±êÇ©Ò³´ò¿ª(&amp;g)" clean="New_Segment" hotkey=""></menu>
+			<menu name="´ò¿ª(&amp;O)" clean="Open" hotkey="^O"></menu>
+			<menu name="´ò¿ªÎÄ¼þ¼Ð(&amp;d)" clean="Open_Folder" hotkey=""></menu>
+			<menu name="ÀúÊ·½Å±¾(&amp;v)" clean="Previous_Scripts"></menu>
+			<menu name="·¢²¼(&amp;P)" clean="Publish"></menu>
+			<menu name="ÒÆ³ý±êÇ©Ò³(&amp;t)" hotkey="" clean="Remove_Segment"></menu>
+			<menu name="ÔËÐÐ(&amp;R)" clean="Run" hotkey=""></menu>
+			<menu name="ÓÉAnsii°æ±¾ÔËÐÐ" clean="Run_As_Ansii" hotkey="^!A"></menu>
+			<menu name="ÓÉU32°æ±¾ÔËÐÐ" clean="Run_As_U32"></menu>
+			<menu name="ÓÉU64°æ±¾ÔËÐÐ" clean="Run_As_U64"></menu>
+			<menu clean="Run_Comment_Block" name="ÔËÐÐ×¢ÊÍ¿é"></menu>
+			<menu name="ÔËÐÐÑ¡ÖÐ´úÂë(&amp;l)" clean="Run_Selected_Text"></menu>
+			<menu name="±£´æ(&amp;S)" hotkey="^S" clean="Save"></menu>
+			<menu name="ÉèÖÃÎªÄ¬ÈÏ±à¼­Æ÷(&amp;A)" clean="Set_As_Default_Editor"></menu>
+			<menu name="ÉÏ´«(&amp;U)" clean="Upload"></menu></menu>
+		<menu name="±à¼­(&amp;E)" clean="Edit">
+			<menu name="×Ô¶¯²¹È«" clean="Auto_Add" hotkey=""></menu>
+			<menu name="±È½Ï" hotkey="" clean="Compare"></menu>
+			<menu name="¸´ÖÆ" clean="Copy"></menu>
+			<menu clean="Custom_Case_Settings" name="×Ô¶¨Òå´óÐ¡Ð´ÉèÖÃ"></menu>
+			<menu name="¼ôÇÐ" clean="Cut"></menu>
+			<menu clean="Debug_Settings" name="µ÷ÊÔÉèÖÃ"></menu>
+			<menu clean="Default_Project_Folder" name="Ä¬ÈÏÏîÄ¿ÎÄ¼þ¼Ð"></menu>
+			<menu name="¸´ÖÆÐÐ(&amp;D)" hotkey="F2" clean="Duplicate_Line"></menu>
+			<menu name="±à¼­×Ô¶¯Ìæ»»(&amp;i)" clean="Edit_Replacements"></menu>
+			<menu name="²éÕÒ(&amp;F)" clean="Find" hotkey="^F"></menu>
+			<menu clean="Find_Replace" name="Ìæ»»"></menu>
+			<menu name="²¹È«Ëõ½ø(&amp;x)" hotkey="" clean="Fix_Indent"></menu>
+			<menu name="FTP·þÎñÆ÷(&amp;p)" clean="Ftp_Servers"></menu>
+			<menu clean="Go_To_Line" name="ÐÐÌø×ª"></menu>
+			<menu name="ÇÐ»»ÏîÄ¿(&amp;e)" clean="Jump_to_Project" hotkey="!S"></menu>
+			<menu name="ÇÐ»»±êÇ©Ò³(&amp;J)" hotkey="!j" clean="Jump_to_Segment"></menu>
+			<menu name="²Ëµ¥±à¼­Æ÷(&amp;M)" func="flan" clean="Menu_Editor"></menu>
+			<menu clean="New_File_Template" name="ÐÂ½¨ÎÄ¼þÄ£°å"></menu>
+			<menu name="ÏÂÒ»¸ö(&amp;N)" hotkey="F3" clean="Next_Found"></menu>
+			<menu name="Õ³Ìù" clean="Paste"></menu>
+			<menu name="×Ô¶¨Òå±äÁ¿ÁÐ±í(&amp;V)" clean="Personal_Variable_List"></menu>
+			<menu name="ÉÏÒ»¸ö" hotkey="+F3" clean="Previous_Found"></menu>
+			<menu clean="Proxy_Settings" name="´úÀíÉèÖÃ"></menu>
+			<menu name="¿ìËÙ²éÕÒ(&amp;Q)" hotkey="!q" clean="Quick_Find"></menu>
+			<menu name="ÖØ×ö(&amp;o)" clean="Redo"></menu>
+			<menu name="Ìæ»»Ñ¡ÖÐÄÚÈÝ(&amp;S)" hotkey="F1" clean="Replace_Selected"></menu>
+			<menu clean="Reset_Zoom" name="¸´Î»Ëõ·Å"></menu>
+			<menu name="ÖØÔØµ±Ç°ÎÄ¼þ(&amp;R)" clean="Restore_Current_File"></menu>
+			<menu name="Ö÷Ìâ(&amp;T)" clean="Theme"></menu>
+			<menu name="ÇÐ»»µ±Ç°ÐÐ×¢ÊÍ×´Ì¬(&amp;l)" hotkey="^J" clean="Toggle_Comment_Line"></menu>
+			<menu name="³·Ïú(&amp;U)" clean="Undo"></menu>
+			<menu name="¿í¶È" clean="Widths"></menu></menu>
+		<menu name="Ñ¡Ïî(&amp;O)" clean="Options">
+			<menu name="¸ß¼¶×Ô¶¯ÒýºÅ" clean="Auto_Advance_Quote"></menu>
+			<menu clean="Auto_Close_Find" name="×Ô¶¯¹Ø±Õ²éÕÒ"></menu>
+			<menu name="¿ìËÙ²éÕÒ×Ô¶¯ÉèÖÃÇøÓò" clean="Auto_Set_Area_On_Quick_Find"></menu>
+			<menu name="×Ô¶¯»Ø³µ»»ÐÐ" clean="Autocomplete_Enter_Newline"></menu>
 			<menu name="Center Caret" clean="Center_Caret"></menu>
 			<menu name="Check For Edited Files On Focus" clean="Check_For_Edited_Files_On_Focus"></menu>
-			<menu clean="Disable_Auto_Indent_For_Non_Ahk_Files" name="ç¦ç”¨è‡ªåŠ¨è¡¥å…¨å¦‚æžœæ²¡æœ‰æ–‡ä»¶"></menu>
-			<menu clean="Disable_Autosave" name="ç¦ç”¨è‡ªåŠ¨ä¿å­˜"></menu>
-			<menu clean="Disable_Backup" name="ç¦ç”¨å¤‡ä»½"></menu>
-			<menu clean="Disable_Folders_In_Project_Explorer" name="åœ¨é¡¹ç›®æµè§ˆå™¨ä¸­ç¦ç”¨æ–‡ä»¶å¤¹"></menu>
-			<menu clean="Disable_Variable_List" name="ç¦ç”¨å˜é‡åˆ—è¡¨"></menu>
-			<menu name="å¯ç”¨å…³é—­æ—¶ä¿å­˜" clean="Enable_Close_On_Save"></menu>
-			<menu name="å¼ºåˆ¶UTF-8" clean="Force_Utf8"></menu>
-			<menu name="éšè—ä»£ç æµè§ˆå™¨" clean="Hide_Code_Explorer"></menu>
-			<menu clean="Hide_Indentation_Guides" name="éšè—ç¼©è¿›æ¡"></menu>
+			<menu clean="Disable_Auto_Indent_For_Non_Ahk_Files" name="½ûÓÃ×Ô¶¯²¹È«Èç¹ûÃ»ÓÐÎÄ¼þ"></menu>
+			<menu clean="Disable_Autosave" name="½ûÓÃ×Ô¶¯±£´æ"></menu>
+			<menu clean="Disable_Backup" name="½ûÓÃ±¸·Ý"></menu>
+			<menu clean="Disable_Folders_In_Project_Explorer" name="ÔÚÏîÄ¿ä¯ÀÀÆ÷ÖÐ½ûÓÃÎÄ¼þ¼Ð"></menu>
+			<menu clean="Disable_Variable_List" name="½ûÓÃ±äÁ¿ÁÐ±í"></menu>
+			<menu name="ÆôÓÃ¹Ø±ÕÊ±±£´æ" clean="Enable_Close_On_Save"></menu>
+			<menu name="Ç¿ÖÆUTF-8" clean="Force_Utf8"></menu>
+			<menu name="Òþ²Ø´úÂëä¯ÀÀÆ÷" clean="Hide_Code_Explorer"></menu>
+			<menu clean="Hide_Indentation_Guides" name="Òþ²ØËõ½øÌõ"></menu>
 			<menu name="Hide Project Explorer" clean="Hide_Project_Explorer"></menu>
 			<menu name="Highlight Current Area" clean="Highlight_Current_Area"></menu>
 			<menu name="Show Caret Line" clean="Show_Caret_Line"></menu>
 			<menu name="Show EOL" clean="Show_EOL"></menu>
 			<menu name="Show WhiteSpace" clean="Show_WhiteSpace"></menu>
-			<menu name="å°å›¾æ ‡(&amp;I)" clean="Small_Icons"></menu>
+			<menu name="Ð¡Í¼±ê(&amp;I)" clean="Small_Icons"></menu>
 			<menu name="Tab Width" clean="Tab_Width"></menu>
 			<menu name="Virtual Space" clean="Virtual_Space"></menu>
 			<menu name="Warn Overwrite On Export" clean="Warn_Overwrite_On_Export"></menu>
-			<menu name="æ¢è¡Œ(&amp;W)" clean="Word_Wrap"></menu></menu>
-		<menu name="å¿«é€ŸæŸ¥æ‰¾è®¾ç½®(&amp;u)" clean="Quick_Find_Settings">
-			<menu name="å¤§å°å†™æ•æ„Ÿ(&amp;C)" clean="Case_Sensitive"></menu>
-			<menu name="æ¸…é™¤å½“å‰é€‰æ‹©(&amp;a)" clean="Clear_Selection" hotkey="^F2"></menu>
+			<menu name="»»ÐÐ(&amp;W)" clean="Word_Wrap"></menu></menu>
+		<menu name="¿ìËÙ²éÕÒÉèÖÃ(&amp;u)" clean="Quick_Find_Settings">
+			<menu name="´óÐ¡Ð´Ãô¸Ð(&amp;C)" clean="Case_Sensitive"></menu>
+			<menu name="Çå³ýµ±Ç°Ñ¡Ôñ(&amp;a)" clean="Clear_Selection" hotkey="^F2"></menu>
 			<menu name="Greed" clean="Greed" hotkey="!G"></menu>
 			<menu name="Multi Line" clean="Multi-Line"></menu>
-			<menu name="æ­£åˆ™è¡¨è¾¾å¼(&amp;R)" clean="Regex"></menu>
+			<menu name="ÕýÔò±í´ïÊ½(&amp;R)" clean="Regex"></menu>
 			<menu name="Set_Selection(&amp;S)" clean="Set_Selection" hotkey="^F1"></menu></menu>
-		<menu name="(è‡ªåŠ¨ç¼©è¿›&amp;A)" clean="Auto_Indent">
+		<menu name="(×Ô¶¯Ëõ½ø&amp;A)" clean="Auto_Indent">
 			<menu name="Fix_Next_Line(&amp;i)" clean="Fix_Next_Line"></menu>
 			<menu name="Full_Auto(&amp;F)" clean="Full_Auto"></menu></menu>
 		<menu name="Tools(&amp;T)" clean="Tools">
@@ -191,8 +191,7 @@
 			<menu clean="Capture_Gif" name="Capture Gif" option="" plugin="plugins\Capture Gif.ahk"></menu>
 			<menu clean="GeekDude_Paste" name="GeekDude Paste" option="" plugin="plugins\Geekdude Paste.ahk"></menu>
 			<menu clean="Paste_Clipboard" name="Paste Clipboard" option="Clipboard" plugin="plugins\Geekdude Paste.ahk"></menu>
-			<menu clean="Upload_Menus" name="Upload Menus" option="" plugin="plugins\Upload Menus.ahk"></menu>
-			<menu clean="Mark_All_Files_For_Update" name="Mark All Files For Update" option="" plugin="plugins\Mark All Files For Update.ahk"></menu></menu>
+			<menu clean="Upload_Menus" name="Upload Menus" option="" plugin="plugins\Upload Menus.ahk"></menu><menu clean="Mark_All_Files_For_Update" name="Mark All Files For Update" option="" plugin="plugins\Mark All Files For Update.ahk"/></menu>
 		<menu clean="Plugin" name="Plugin(&amp;l)">
 			<menu clean="Capture_Gif" name="Capture Gif" option="" plugin="plugins\Capture Gif.ahk"></menu>
 			<menu clean="Auto_Menu_Adder" name="Auto Menu Adder" option="" plugin="plugins\Auto Menu Adder.ahk" hotkey="^!0"></menu>
