@@ -185,5 +185,7 @@
 			<menu name="社区(&amp;S)" clean="Social"></menu>
 			<menu name="测试中" hotkey="!F2" clean="Testing"></menu></menu>
 		<menu name="便笺(&amp;P)" clean="Scratch_Pad"></menu>
+		<menu clean="Plugin" name="P&amp;lugin"></menu>
 	</main>
+	<date>20150208</date>
 </menus>

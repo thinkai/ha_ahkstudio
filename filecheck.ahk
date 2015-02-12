@@ -1,4 +1,5 @@
 filecheck(){
+	host = http://cdn.nanosz.com/ahkstudio/
 	commandsdate:=20150103,menusdate:=20150208,scilexerdate:=20150126161703
 	RegRead,proxy,HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Internet Settings,ProxyServer
 	if proxy
@@ -10,7 +11,7 @@ filecheck(){
 		defaultfont()
 	if (menus.ssn("//date").text!=menusdate){
 		SplashTextOn,300,100,Downloading Menus XML,Please Wait...
-		temp:=new xml("temp"),temp.xml.loadxml(URLDownloadToVar("http://files.maestrith.com/AHK-Studio/menus.xml"))
+		temp:=new xml("temp"),temp.xml.loadxml(URLDownloadToVar(host "menus.xml"))
 		if menus.sn("//*").length=1
 			menus.xml.loadxml(temp[])
 		else{
@@ -51,11 +52,11 @@ filecheck(){
 		updatedate:=1
 	}
 	if !FileExist("lib\commands.xml")
-		FileAppend,% URLDownloadToVar("http://files.maestrith.com/AHK-Studio/commands.xml"),lib\commands.xml
+		FileAppend,% URLDownloadToVar(host "commands.xml"),lib\commands.xml
 	if !FileExist("scilexer.dll")
-		URLDownloadToFile,http://files.maestrith.com/AHK-Studio/SciLexer.dll,SciLexer.dll
+		URLDownloadToFile,%host%SciLexer.dll,SciLexer.dll
 	if !FileExist("AHKStudio.ico")
-		urldownloadtofile,http://files.maestrith.com/AHK-Studio/AHKStudio.ico,AHKStudio.ico
+		urldownloadtofile,%host%AHKStudio.ico,AHKStudio.ico
 	SplashTextOff
 	if !settings.ssn("//options")
 		settings.Add({path:"options",att:{}})

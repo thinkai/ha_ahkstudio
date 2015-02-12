@@ -6,11 +6,11 @@ clean(clean,tab=""){
 		clean:=SubStr(clean,1,InStr(clean,"`t")-1)
 	Loop,Parse,zh_CN,`n
 	{
-		IfInString, A_LoopField, % clean
+		StringSplit, a, A_LoopField, `,
+		If (a1=clean)
 		{
 			clean := RegExReplace(A_LoopField,".*,(.*)","$1")
 		}
 	}
-
 	return clean
 }

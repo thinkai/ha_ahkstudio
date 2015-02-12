@@ -37,8 +37,7 @@
 		<font style="8" color="0x00AAFF"></font>
 		<font style="10" color="0x2929EF"></font>
 	</fonts>
-	<options>
-	</options>
+	<options Auto_Close_Find="0" Warn_Overwrite_On_Export="0"></options>
 	<toolbar>
 		<bar id="10000">
 			<button file="shell32.dll" func="Open" icon="4" id="10000" state="4" text="Open" vis="1"></button>
@@ -63,18 +62,21 @@
 		<band id="10000" vis="1" width="254"></band>
 		<band id="10001" vis="1" width="137"></band>
 		<band id="10002" vis="1" width="223"></band>
-		<band id="11000" vis="1" width="1292"></band>
+		<band id="11000" vis="1" width="340"></band>
 	</rebar>
 	<open>
 		<file>D:\Desktop\xxx\AHK Studio\Projects\Untitled\Untitled1\Untitled.ahk</file>
-		<file>D:\我的文档\GitHub\ha_ahkstudio\Add Function Call.ahk</file>
 		<file>D:\Desktop\AHK\myahk\编码文字\HashCalc_v0.9_by jNizM.ahk</file>
-		<file>D:\我的文档\GitHub\ha_ahkstudio\Add Spaces After Commas.ahk</file>
-		<file>D:\Desktop\AHK\myahk\数据库相关\标题乱序CSV数据整理.ahk</file>
+		<file>D:\Desktop\AHK\myahk\ha_ahkstudio\AHK Studio.ahk</file>
 	</open>
 	<gui zoom="0">
-		<position window="1" max="1">x577 y240 w750 h500</position></gui>
+		<position window="1" max="0">x492 y115 w968 h706</position></gui>
+	<previous_scripts>
+		<script>D:\我的文档\GitHub\ha_ahkstudio\Add Spaces After Commas.ahk</script>
+		<script>D:\我的文档\GitHub\ha_ahkstudio\Add Function Call.ahk</script>
+		<script>D:\Desktop\AHK\myahk\数据库相关\标题乱序CSV数据整理.ahk</script>
+	</previous_scripts>
 	<last>
-		<file>D:\Desktop\AHK\myahk\数据库相关\标题乱序CSV数据整理.ahk</file>
+		<file>D:\Desktop\AHK\myahk\编码文字\HashCalc_v0.9_by jNizM.ahk</file>
 	</last>
 </settings>

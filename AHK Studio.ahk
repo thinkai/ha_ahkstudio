@@ -50,11 +50,6 @@
 		}
 	}
 */
-
-DetectHiddenWindows,On
-file=%1%
-
-;∫∫ªØ
 global zh_CN
 zh_CN =
 (
@@ -245,6 +240,8 @@ Scintilla¥˙¬Î≤È’“(&amp;S),Scintilla_Code_Lookup
 )
 
 
+DetectHiddenWindows,On
+file=%1%
 ComObjError(0)
 if x:=ComObjActive("AHK-Studio"){
 	x.open(file),x.scanfiles(),x.activate()
@@ -269,8 +266,7 @@ if (A_PtrSize=8&&A_IsCompiled=""){
 	ExitApp
 	return
 }
-;filecheck(),v.quick:=[]
-v.quick:=[]
+filecheck(),v.quick:=[]
 Menu,Tray,Icon,AHKStudio.ico
 keywords(),gui(),ObjRegisterActive(pluginclass),plugins()
 return
