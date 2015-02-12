@@ -150,7 +150,7 @@ Warn Overwrite On Export,导出是时警告文件覆盖
 多行,Multi-Line
 正则表达式(&amp;R),Regex
 设置选区(&amp;S),Set_Selection
-(自动缩进&amp;A),Auto_Indent
+自动缩进(&amp;A),Auto_Indent
 补全下一行(&amp;I),Fix_Next_Line
 自动补全(&amp;F),Full_Auto
 工具(&amp;T),Tools

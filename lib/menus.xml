@@ -93,7 +93,7 @@
 			<menu name="多行" clean="Multi-Line"></menu>
 			<menu name="正则表达式(&amp;R)" clean="Regex"></menu>
 			<menu name="设置选区(&amp;S)" clean="Set_Selection" hotkey="^F1"></menu></menu>
-		<menu name="(自动缩进&amp;A)" clean="Auto_Indent">
+		<menu name="自动缩进(&amp;A)" clean="Auto_Indent">
 			<menu name="补全下一行(&amp;I)" clean="Fix_Next_Line"></menu>
 			<menu name="自动补全(&amp;F)" clean="Full_Auto"></menu></menu>
 		<menu name="工具(&amp;T)" clean="Tools">
