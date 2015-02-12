@@ -1,4 +1,5 @@
 clean(clean,tab=""){
+	clean:=RegExReplace(RegExReplace(RegExReplace(clean,"&")," ","_"),"\((\w)\)","(&amp;$1)")
 	if tab
 		return RegExReplace(clean,"[^\w ]")
 	if InStr(clean,"`t")
@@ -10,6 +11,6 @@ clean(clean,tab=""){
 			clean := RegExReplace(A_LoopField,".*,(.*)","$1")
 		}
 	}
-	clean:=RegExReplace(RegExReplace(clean,"&")," ","_")
+
 	return clean
 }
