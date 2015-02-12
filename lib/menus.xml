@@ -84,7 +84,7 @@
 			<menu name="小图标(&amp;I)" clean="Small_Icons"></menu>
 			<menu name="制表符宽度" clean="Tab_Width"></menu>
 			<menu name="Virtual Space" clean="Virtual_Space"></menu>
-			<menu name="Warn Overwrite On Export" clean="导出是时警告文件覆盖"></menu>
+			<menu name="导出时警告文件覆盖" clean="Warn_Overwrite_On_Export"></menu>
 			<menu name="换行(&amp;W)" clean="Word_Wrap"></menu></menu>
 		<menu name="快速查找设置(&amp;U)" clean="Quick_Find_Settings">
 			<menu name="大小写敏感(&amp;C)" clean="Case_Sensitive"></menu>

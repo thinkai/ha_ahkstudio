@@ -141,7 +141,7 @@ FTP服务器(&amp;P),Ftp_Servers
 小图标(&amp;I),Small_Icons
 制表符宽度,Tab_Width
 Virtual Space,Virtual_Space
-Warn Overwrite On Export,导出是时警告文件覆盖
+导出时警告文件覆盖,Warn_Overwrite_On_Export
 换行(&amp;W),Word_Wrap
 快速查找设置(&amp;U),Quick_Find_Settings
 大小写敏感(&amp;C),Case_Sensitive
