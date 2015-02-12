@@ -185,12 +185,5 @@
 			<menu name="社区(&amp;S)" clean="Social"></menu>
 			<menu name="测试中" hotkey="!F2" clean="Testing"></menu></menu>
 		<menu name="便笺(&amp;P)" clean="Scratch_Pad"></menu>
-		<menu clean="Plugin" name="插件(&amp;L)">
-			<menu clean="Make One Line" name="Make One Line" option="" plugin="plugins\All One Line.ahk" hotkey="!["></menu>
-			<menu clean="Menu自动添加" name="Auto Menu Adder" option="" plugin="plugins\Auto Menu Adder.ahk" hotkey="^!0"></menu>
-			<menu clean="Gif捕捉" name="Capture Gif" option="" plugin="plugins\Capture Gif.ahk"></menu>
-			<menu clean="GeekDude粘贴" name="GeekDude Paste" option="" plugin="plugins\Geekdude Paste.ahk"></menu>
-			<menu clean="Upload Menus" name="Upload Menus" option="" plugin="plugins\Upload Menus.ahk"></menu>
-			<menu clean="Mark All Files For Update" name="Mark All Files For Update" option="" plugin="plugins\Mark All Files For Update.ahk"></menu></menu>
 	</main>
 </menus>

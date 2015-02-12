@@ -242,13 +242,6 @@ Scintilla代码查找(&amp;S),Scintilla_Code_Lookup
 社区(&amp;S),Social
 测试中,Testing
 便笺(&amp;P),Scratch_Pad
-插件(&amp;L),Plugin
-Make One Line,Make One Line
-Auto Menu Adder,Menu自动添加
-Capture Gif,Gif捕捉
-GeekDude Paste,GeekDude粘贴
-Upload Menus,Upload Menus
-Mark All Files For Update,Mark All Files For Update
 )
 
 
